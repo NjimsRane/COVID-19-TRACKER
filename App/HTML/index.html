@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="NjimsRane">
+        <title>COVID-19 TRACKER</title>
+        <!-- link to css -->
+        <link rel="stylesheet" href="/App/CSS/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="preloader">
+            <div class="preloader_loader">
+            </div>
+            <div class="preloader_text">Loading......</div>
+        </div>
+
+        <div class="container">
+            <div class="statistics">
+                <h1>COVID-19 TRACKER</h1>
+                <div class="global">
+                    <div class="global_cases">
+                       <h2>12121323</h2>
+                       <h3>Total Cases</h3>
+                    </div>
+                    <div class="global_deaths">
+                       <h2>32323232</h2>
+                       <h3>Total Deaths</h3>
+                    </div>
+                    <div class="global_recovered">
+                       <h2>3323232</h2>
+                       <h3>Total Recovered</h3>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="search-input">
+                <input type="text" name="search-countries" id="search" placeholder="Search Countries">
+                <select name="sort" id="sort" class="select-option" id="select-option ">
+                    <option selected disabled>Sort By</option>
+                    <option value="cases">Total Cases</option>
+                    <option value="deaths">Total Deaths</option>
+                    <option value="recovered">Total Recovered</option>
+                </select>
+            </div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Country</th>
+                        <th>Cases</th>
+                        <th>Deaths</th>
+                        <th>Recovered</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>cameroun</td>
+                        <td>cameroun</td>
+                        <td>cameroun</td>
+                        <td>cameroun</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="arrow">
+            <div class="up-arrow"></div>
+            <div class="down-arrow"></div>
+        </div>
+        
+        <!-- link to Js -->
+        <script src="https://www.promisejs.org/polyfills/promise-6.1.0.js"></script>
+        
+        <!-- axio to get data -->
+        <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+
+        <!-- smooth scroll -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.3/smooth-scroll.min.js" ></script>
+
+     
+        <script src="/App/JS/srcipt.js"></script>
+    </body>
+</html>
